@@ -137,21 +137,23 @@ h3>span {
     font-weight: 800;
     margin-left: 240px;
 }
+
 .frame-1,
 .frame-2,
-.frame-3{
+.frame-3 {
     padding-left: 240px;
 }
 
-.btn{
+.btn {
     margin-left: 240px;
 }
+
 .goat-item {
     background-image: url(../images/Group\ 14.png);
     width: 900px;
     height: 800px;
     margin-left: -240px;
-    
+
 }
 
 .play-like-the {
@@ -216,13 +218,13 @@ h3>span {
     ul {
         flex-direction: column;
         margin-bottom: 20px;
-
+        box-shadow: none;
     }
 
     .about,
     .developer {
         margin-bottom: 30px;
-        margin-left: 200px;
+        margin-left: 400px;
         font-size: 18px;
         font-weight: 500px;
     }
@@ -232,19 +234,31 @@ h3>span {
         padding-top: 0px;
         margin-right: 120px;
         margin-top: 50px;
-        margin-left: 350px;
+        margin-left: 500px;
 
     }
 
     .follow-us-logo {
-        margin-left: 400px;
+        margin-left: 600px;
         margin-top: 20px;
         width: 262px;
         height: 56px;
 
     }
 
-    
+    /* Goat section */
+    .goat-content {
+        flex-direction: column-reverse;
+        margin-left: 100px;
+    }
+
+    .goat-item ,.goat-image{
+        margin-left: 250px;
+
+    }
+   
+
+
 
 }
 
@@ -254,7 +268,7 @@ h3>span {
     nav {
         flex-direction: column;
         margin-bottom: 10px;
-
+        box-shadow: none;
     }
 
     .logo {
@@ -289,6 +303,17 @@ h3>span {
     .about {
         width: 262px;
         height: 56px;
+    }
+
+    /* Goat section */
+    .goat-content {
+        flex-direction: column-reverse;
+        margin-left: 190px;
+    }
+
+    .goat-item {
+        margin-left: 250px;
+
     }
 
 }
