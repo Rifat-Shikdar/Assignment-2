@@ -33,11 +33,22 @@
 }
 
 /* nav styles----------------------------------------------*/
+header {
+    position: sticky;
+    top: 0;
+    transition: 3s;
+    background: var(--white-color);
+    
+   }
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
 }
 
 nav>ul {
@@ -69,10 +80,12 @@ nav li {
     justify-content: space-between;
     align-items: center;
     margin-left: 240px;
-    padding-top: 40px;
+    padding-top: 4px;
     font-size: 45px;
     font-size: 45px;
+
 }
+
 
 .logo>img {
     width: 80px;
@@ -252,12 +265,15 @@ h3>span {
 
 }
 
-/* online games  section */
+/* online games  section ----------------------*/
+
 .online-games-header {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-.online-games-image {
+/* .online-games-image {
     
    margin-left: 240px;
    margin-right: 240px;
@@ -267,8 +283,25 @@ h3>span {
    padding: 0px, auto;
    display: grid;
    grid-template-columns: repeat(4,1fr);
+} */
+.online-games-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    gap: 20px;
+    padding: 0px, auto;
+
 }
 
+#p-1,
+#p-2,
+#p-3,
+#p-4 {
+
+    width: 350px;
+
+}
 
 
 /* Responsive Style */
@@ -281,6 +314,12 @@ h3>span {
         flex-direction: column;
         margin-bottom: 20px;
         box-shadow: none;
+        
+    }
+    header{
+        position: relative;
+        
+       
     }
 
     .about,
@@ -343,11 +382,38 @@ h3>span {
         background: none;
     }
 
+    /* online games section------------ */
+
+    .online-games-header {
+        padding-left: 140px;
+        text-align: center;
+        margin-right: -240px;
+        
+       
+    }
+    .online-games{
+       
+        text-align: center;
+    }
+
+    .online-games-image{
+        flex-direction: column;
+       width: 50%;
+       
+        
+    }
+
+
 }
 
 /* Tablet Device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
+    header{
+        position: relative;
+        
+       
+    }
     nav {
         flex-direction: column;
         margin-bottom: 10px;
@@ -421,5 +487,15 @@ h3>span {
 
     .we-are-gamer {
         background: none;
+    }
+
+    /* online games */
+    .online-games-image{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       margin-left:350px;
+    }
+    .online-games-header{
+        margin-left: 200px;
     }
 }
