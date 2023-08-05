@@ -354,7 +354,7 @@ h3>span {
     
 }
 
-.play-header,
+.play-instantly-header,
 .play-anywhere-header {
     font-size: 48px;
     font-weight: 700;
@@ -367,7 +367,7 @@ h3>span {
     width: 500px;
 }
 
-.play-image-2{
+.play-instantly-image-2{
     border-color: var(--white-color);
     position: relative;
     bottom: 300px;
@@ -491,8 +491,52 @@ h3>span {
 
 
     }
+    /* play instantly--------------------------- */
+    .play-instantly{
+        flex-direction: column;
+        
+        
+    }
+    .play-instantly-header
+    {
+        text-align: center;
+       padding-left: 340px;
+        
+    }
 
+    .play-instantly-image-1 {
+       
+       width: 150%;
+       padding-left: 140px;
+        
+    }
+    .play-instantly-image-2{
 
+        position: relative;
+       left: 5px;
+       bottom: 150px;
+
+    }
+    /* play anywhere */
+    .play-anywhere{
+        flex-direction: column-reverse;
+    }
+    .play-anywhere-header{
+        text-align: center;
+        padding-left: 140px;
+        width: 500px;
+    }
+    .play-anywhere-image-1{
+        width: 120%;
+        margin-left: 140px;
+    }
+    .play-anywhere-image-2{
+        position: relative;
+        left: 20px;
+       bottom: 150px;
+       
+    }
+    
 }
 
 /* Tablet Device */
