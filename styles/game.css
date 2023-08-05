@@ -571,7 +571,15 @@ h3>span {
        bottom: 150px;
        
     }
-    
+    /* career style----------------- */
+    .career{
+        flex-direction: column;
+
+        width: 900px;
+    }
+    .career-info{
+        margin-left: 130px;
+    }
 }
 
 /* Tablet Device */
