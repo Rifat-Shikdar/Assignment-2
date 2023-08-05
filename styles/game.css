@@ -9,6 +9,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
 :root {
     --primary-color: #FF42A5;
     --secondary-color: #0B0223;
@@ -354,15 +360,14 @@ h3>span {
     
 }
 
-.play-instantly-header,
-.play-anywhere-header {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 90px;
-    text-align: right;
-    
 
+
+.play-instantly-header
+ {
+   
+    text-align: right;
 }
+
 .play-description{
     width: 500px;
 }
@@ -375,7 +380,9 @@ h3>span {
 }
 
 /* play-anywhere styles */
-
+.play-anywhere-header{
+  text-align: left;
+}
 .play-anywhere{
     display: flex;
     justify-content: center;
@@ -390,6 +397,34 @@ h3>span {
     left: 75%;
 }
 
+/* CAREER STYLES------------------------- */
+.career-details{
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+.career{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.career-location{
+    text-align: right;
+}
+.career-description{
+    color: var(--white-color);
+    width: 680px;
+}
+.btn-career{
+    font-size: 20px;
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: var(--primary-color);
+    border: none;
+    position: relative;
+    right: 20px;
+}
 
 /* Responsive Style */
 /* Mobile Style */
