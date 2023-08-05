@@ -9,7 +9,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.title{
+.title {
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -357,22 +357,21 @@ h3>span {
     margin-left: 200px;
     margin-right: 240px;
     gap: 300px;
-    
+
 }
 
 
 
-.play-instantly-header
- {
-   
+.play-instantly-header {
+
     text-align: right;
 }
 
-.play-description{
+.play-description {
     width: 500px;
 }
 
-.play-instantly-image-2{
+.play-instantly-image-2 {
     border-color: var(--white-color);
     position: relative;
     bottom: 300px;
@@ -380,17 +379,18 @@ h3>span {
 }
 
 /* play-anywhere styles */
-.play-anywhere-header{
-  text-align: left;
+.play-anywhere-header {
+    text-align: left;
 }
-.play-anywhere{
+
+.play-anywhere {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     gap: 200px;
 }
 
-.play-anywhere-image-2{
+.play-anywhere-image-2 {
     border-color: var(--white-color);
     position: relative;
     bottom: 250px;
@@ -398,25 +398,29 @@ h3>span {
 }
 
 /* CAREER STYLES------------------------- */
-.career-details{
+.career-details {
     display: flex;
     gap: 250px;
     align-items: center;
 }
-.career{
+
+.career {
     display: flex;
     justify-content: space-around;
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.career-location{
+
+.career-location {
     text-align: right;
 }
-.career-description{
+
+.career-description {
     color: var(--white-color);
     width: 680px;
 }
-.btn-career{
+
+.btn-career {
     font-size: 20px;
     padding: 21px 40px;
     border-radius: 48px;
@@ -424,6 +428,66 @@ h3>span {
     border: none;
     position: relative;
     right: 20px;
+}
+
+/* more section------------------ */
+.more {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8,
+.card-9 {
+    display: flex;
+    border-radius: 50px;
+    gap: 20px;
+    background-color: var(--white-color);
+    padding: 15px;
+    
+    
+    /* margin-right: 240px;
+    margin-left: 140px; */
+
+
+
+}
+
+.card-6,
+ .card-7,
+ .card-8,
+ .card-9 {
+   position: relative;
+   left: 200px;
+ }
+
+.card>img,
+h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+   
+
+}
+
+
+.more-details {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    padding-top: 100px;
+    margin-left: 140px;
+    margin-right: 240px; 
+    gap: 50px;
+
+}
+.card:hover{
+    transition: 0.2s;
+     border: 1px solid var(--primary-color);
+     color: var(--primary-color);
 }
 
 /* Responsive Style */
@@ -526,58 +590,66 @@ h3>span {
 
 
     }
+
     /* play instantly--------------------------- */
-    .play-instantly{
+    .play-instantly {
         flex-direction: column;
-        
-        
+
+
     }
-    .play-instantly-header
-    {
+
+    .play-instantly-header {
         text-align: center;
-       padding-left: 340px;
-        
+        padding-left: 340px;
+
     }
 
     .play-instantly-image-1 {
-       
-       width: 150%;
-       padding-left: 140px;
-        
+
+        width: 150%;
+        padding-left: 140px;
+
     }
-    .play-instantly-image-2{
+
+    .play-instantly-image-2 {
 
         position: relative;
-       left: 5px;
-       bottom: 150px;
+        left: 5px;
+        bottom: 150px;
 
     }
+
     /* play anywhere */
-    .play-anywhere{
+    .play-anywhere {
         flex-direction: column-reverse;
     }
-    .play-anywhere-header{
+
+    .play-anywhere-header {
         text-align: center;
         padding-left: 140px;
         width: 500px;
     }
-    .play-anywhere-image-1{
+
+    .play-anywhere-image-1 {
         width: 120%;
         margin-left: 140px;
     }
-    .play-anywhere-image-2{
+
+    .play-anywhere-image-2 {
         position: relative;
         left: 20px;
-       bottom: 150px;
-       
+        bottom: 150px;
+
     }
+
     /* career style----------------- */
-    .career{
+    .career {
         flex-direction: column;
 
         width: 900px;
     }
-    .career-info{
+
+    .career-info {
         margin-left: 130px;
     }
 }
