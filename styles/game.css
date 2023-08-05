@@ -38,8 +38,8 @@ header {
     top: 0;
     transition: 3s;
     background: var(--white-color);
-    
-   }
+
+}
 
 
 nav {
@@ -228,7 +228,7 @@ h3>span {
 .we-are-gamer-content {
 
     text-align: right;
-    padding-left: 240px;
+    padding-left: 140px;
 
 
 }
@@ -294,6 +294,43 @@ h3>span {
 
 }
 
+.hover {
+    visibility: hidden;
+}
+
+.box-1:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+    visibility: visible;
+
+
+}
+
+.box-2:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+    visibility: visible;
+
+
+}
+
+.box-3:hover {
+    transition: 0.3s;
+    opacity: 0.5;
+    visibility: visible;
+
+
+
+}
+
+.box-4:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+    visibility: visible;
+
+
+}
+
 #p-1,
 #p-2,
 #p-3,
@@ -301,6 +338,56 @@ h3>span {
 
     width: 350px;
 
+}
+
+/* play section styles------------------------------ */
+.play-instantly {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 40px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 240px;
+    gap: 300px;
+    
+}
+
+.play-header,
+.play-anywhere-header {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: right;
+    
+
+}
+.play-description{
+    width: 500px;
+}
+
+.play-image-2{
+    border-color: var(--white-color);
+    position: relative;
+    bottom: 300px;
+    right: 23%;
+}
+
+/* play-anywhere styles */
+
+.play-anywhere{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+.play-anywhere-image-2{
+    border-color: var(--white-color);
+    position: relative;
+    bottom: 250px;
+    left: 75%;
 }
 
 
@@ -314,12 +401,13 @@ h3>span {
         flex-direction: column;
         margin-bottom: 20px;
         box-shadow: none;
-        
+
     }
-    header{
+
+    header {
         position: relative;
-        
-       
+
+
     }
 
     .about,
@@ -388,19 +476,20 @@ h3>span {
         padding-left: 140px;
         text-align: center;
         margin-right: -240px;
-        
-       
+
+
     }
-    .online-games{
-       
+
+    .online-games {
+
         text-align: center;
     }
 
-    .online-games-image{
+    .online-games-image {
         flex-direction: column;
-       width: 50%;
-       
-        
+        width: 50%;
+
+
     }
 
 
@@ -409,11 +498,12 @@ h3>span {
 /* Tablet Device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
 
-    header{
+    header {
         position: relative;
-        
-       
+
+
     }
+
     nav {
         flex-direction: column;
         margin-bottom: 10px;
@@ -490,12 +580,13 @@ h3>span {
     }
 
     /* online games */
-    .online-games-image{
+    .online-games-image {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-       margin-left:350px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 350px;
     }
-    .online-games-header{
+
+    .online-games-header {
         margin-left: 200px;
     }
 }
