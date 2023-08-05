@@ -433,6 +433,7 @@ h3>span {
 /* more section------------------ */
 .more {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
 }
 
 .card-1,
@@ -449,8 +450,8 @@ h3>span {
     gap: 20px;
     background-color: var(--white-color);
     padding: 15px;
-    
-    
+
+
     /* margin-right: 240px;
     margin-left: 140px; */
 
@@ -458,36 +459,38 @@ h3>span {
 
 }
 
-.card-6,
- .card-7,
- .card-8,
- .card-9 {
-   position: relative;
-   left: 200px;
- }
+/* .card-6,
+.card-7,
+.card-8,
+.card-9 {
+    position: relative;
+    left: 200px;
+} */
 
 .card>img,
 h2 {
     padding-top: 10px;
     padding-left: 10px;
-   
+
 
 }
 
 
 .more-details {
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-columns: repeat(5, 1fr);
     padding-top: 100px;
     margin-left: 140px;
-    margin-right: 240px; 
+    margin-right: 240px;
+    padding-bottom: 140px;
     gap: 50px;
 
 }
-.card:hover{
-    transition: 0.2s;
-     border: 1px solid var(--primary-color);
-     color: var(--primary-color);
+
+.card:hover {
+    transition: 0.1s;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 /* Responsive Style */
@@ -652,6 +655,16 @@ h2 {
     .career-info {
         margin-left: 130px;
     }
+
+    /* more section style------------ */
+    .more-details {
+        grid-template-columns: repeat(3,1fr);
+       justify-content: space-between;
+       margin-left: 20px;
+       margin-right: 100px;
+       
+    }
+
 }
 
 /* Tablet Device */
