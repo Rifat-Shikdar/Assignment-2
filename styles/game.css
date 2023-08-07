@@ -350,6 +350,7 @@ h3>span {
     transition: 0.5s;
     opacity: 0.5;
     visibility: visible;
+    
 
 
 }
@@ -818,7 +819,9 @@ footer {
 
     header {
         position: relative;
-
+        left: 200px;
+        align-items: center;
+        font-size: 25px;
 
     }
 
@@ -826,19 +829,28 @@ footer {
         flex-direction: column;
         margin-bottom: 10px;
         box-shadow: none;
+        gap: 5px;
     }
 
     .logo {
-        margin-right: 200px;
-        padding-bottom: 5px;
+        
+       
         padding-top: 5px;
     }
 
     ul>li {
+        
         margin-left: 50px;
-        gap: 50px;
+        
         justify-content: center;
         align-items: center;
+        ;
+    }
+    nav > ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-items: center;
     }
 
     .follow-us-logo {
@@ -849,23 +861,34 @@ footer {
         padding-top: 0px;
         padding-bottom: 0px;
 
-
+        left: 200px;
+        align-items: center;
+        font-size: 25px;
+        width: 400px;
+        position: relative;
+        left: 300px;
     }
+ .about{
+    width: 150px;
+    padding-right: 0px;
+    position: relative;
+    left: 20%;
 
-    .developer {
-        padding-left: 20px;
-        padding-right: 50px;
-    }
+ }
+ .developer{
+    padding-right: 10px;
+    position: relative;
+    right: 30%;
+ }
+    
 
-    .about {
-        width: 262px;
-        height: 56px;
-    }
+    
 
     /* Goat section */
     .goat-content {
         flex-direction: column-reverse;
-        margin-left: 190px;
+        margin-left: 120px;
+        width: 200%;
     }
 
     .goat-item {
@@ -880,7 +903,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        padding-left: 200px;
+        padding-left: 700px;
     }
 
     .we-are-gamer-content {
@@ -901,10 +924,152 @@ footer {
     .online-games-image {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 350px;
+        margin-left: 750px;
     }
 
     .online-games-header {
-        margin-left: 200px;
+        margin-left: 300px;
+        width: 900px;
     }
+
+    /* play instantly section---------------- */
+
+    .play-instantly {
+        flex-direction: column;
+        
+
+    }
+    .play-instantly-header {
+        text-align: center;
+        padding-left: 780px;
+        width: 500px;
+
+    }
+    .play-instantly-image{
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    .play-instantly-image-1 {
+
+        width: 230%;
+        padding-left: 180px;
+
+    }
+    .play-instantly-image-2 {
+
+        position: relative;
+        left: 15px;
+        bottom: 150px;
+
+    }
+
+     /* play anywhere */
+
+     .play-anywhere {
+        flex-direction: column-reverse;
+    }
+
+    .play-anywhere-header {
+        text-align: center;
+        padding-left: 480px;
+        width: 500px;
+    }
+    .play-anywhere-image{
+        margin-left: 340px;
+        
+    }
+    .play-anywhere-image-1 {
+        width: 150%;
+        margin-left: 180px;
+    }
+    .play-anywhere-image-2 {
+        position: relative;
+        left: 30px;
+        bottom: 150px;
+
+    }
+
+    /* career style----------------- */
+    .career {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        width: 200%;
+    }
+    .career-title,
+    .career-details,
+    .career-description
+    {
+        text-align: center;
+        margin-left: 100px;
+    }
+    .career-details{
+        text-align: left;
+    }
+    .btn-career{
+        position: relative;
+        left: 25px;
+    }
+    .career-info {
+        margin-left: 10px;
+    }
+
+    /* more section style------------ */
+    .more{
+        width: 200%;
+    }
+    .more-details {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        margin-left: 100px;
+        
+        
+
+    }
+
+    /* footer styles------------------ */
+
+     .footer-more-info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        row-gap: 5px;
+        padding-right: 100px;
+       
+        
+       
+     }
+     .footer-social-media{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: none;
+        padding-right: 100px;
+        justify-items: center;
+        
+     }
+     .footer-terms-condition{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      justify-items: center;
+      row-gap: 15px;
+        
+     }
+    .copy-right{
+        width: 60%;
+        text-align: center;
+        padding-left: 300px;
+      
+       
+    }
+    footer{
+        background-color: none;
+        width: 220%;
+        
+
+    }
+    
+    
+
+
 }
