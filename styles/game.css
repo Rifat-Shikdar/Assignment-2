@@ -51,8 +51,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    gap: 600px;
+    
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 
@@ -62,17 +64,20 @@ nav>ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 nav li a {
     text-decoration: none;
     color: black;
+    
 }
 
 nav li {
@@ -108,10 +113,12 @@ nav li {
     border-radius: 8px;
     margin-right: 240px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 15px;
-    gap: 10px;
+    padding: 10px;
+    gap: 5px;
+    
     font-size: 18px;
     font-weight: 500px;
+   
 
 }
 
@@ -152,35 +159,41 @@ h3>span {
 
     font-size: 20px;
     font-weight: 500;
+    
 }
 
 .goat {
     justify-content: center;
     align-items: center;
-   
+    
+}
+.goat-image{
+    margin-right: 240px;
 }
 
 .goat-title {
     font-size: 90px;
     font-weight: 800;
     margin-left: 240px;
-   
+
+    margin-left: 200px;
 }
 
 .frame-1,
 .frame-2,
 .frame-3 {
-    margin-left: 240px;
+    margin-left: 200px;
 }
 
 .btn {
-    margin-left: 240px;
+    margin-left: 200px;
     padding-top: -10px;
 }
 
 .goat-item {
     background-image: url(../images/Group\ 14.png);
     background-repeat:no-repeat ;
+    
     width: 999px;
     height: 700px;
     
@@ -192,9 +205,11 @@ h3>span {
     text-transform: uppercase;
     padding-top: 60px;
     margin-bottom: -50px;
-    margin-left: 240px;
+
+    margin-left: 200px;
 
 }
+
 
 .btn-sign-in {
     border-radius: 48px;
@@ -226,7 +241,7 @@ h3>span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    gap: 20px;
     
     
 }
@@ -404,22 +419,30 @@ h3>span {
     display: flex;
     gap: 250px;
     align-items: center;
+    margin-left: 240px;
 }
-
+.career-title{
+    margin-left: 240px;
+}
 .career {
     display: flex;
     justify-content: space-around;
     background-color: var(--primary-color);
     color: var(--white-color);
+    
 }
+
 
 .career-location {
     text-align: right;
+    
 }
 
 .career-description {
     color: var(--white-color);
     width: 680px;
+    margin-left: 240px;
+    
 }
 
 .btn-career {
@@ -429,7 +452,8 @@ h3>span {
     color: var(--primary-color);
     border: none;
     position: relative;
-    right: 20px;
+    left: 100px;
+    
 }
 
 /* more section------------------ */
@@ -502,28 +526,31 @@ h2 {
 
 footer {
     background-color: #0B0223;
+    
 }
 
 .footer-title {
     color: var(--white-color);
+   
 }
 
 .footer-top {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    
     font-size: 45px;
     font-weight: 700px;
     gap: 20px;
     padding-top: 150px;
+   
 }
 
 .footer-more-info {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    cursor: pointer;
     gap: 100px;
     /* margin-left: 240px;
     margin-right: 240px; */
@@ -536,7 +563,7 @@ footer {
     align-items: center;
     gap: 50px;
     padding-top: 70px;
-
+    cursor: pointer;
 }
 .footer-terms-condition{
     
@@ -546,6 +573,7 @@ footer {
     gap: 60px;
     opacity: 50%;
     padding-top: 70px;
+     cursor: pointer;
 }
 .copy-right{
     display: flex;
@@ -568,7 +596,7 @@ footer {
         flex-direction: column;
         margin-bottom: 20px;
         box-shadow: none;
-
+        gap: 20px;
     }
 
     header {
@@ -605,14 +633,10 @@ footer {
     /* Goat section */
     .goat-content {
         flex-direction: column-reverse;
-        margin-left: 100px;
+        margin-left: 540px;
     }
 
-    .goat-item,
-    .goat-image {
-        margin-left: 250px;
-
-    }
+    
 
     /* .we-are-gamer section--------- */
     .we-are-gamer {
@@ -620,7 +644,7 @@ footer {
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        padding-left: 240px;
+        padding-left: 340px;
     }
 
     .we-are-gamer-content {
@@ -662,27 +686,27 @@ footer {
     /* play instantly--------------------------- */
     .play-instantly {
         flex-direction: column;
-
+        
 
     }
 
     .play-instantly-header {
         text-align: center;
-        padding-left: 340px;
+        padding-left: 440px;
 
     }
 
     .play-instantly-image-1 {
 
         width: 150%;
-        padding-left: 140px;
+        padding-left: 180px;
 
     }
 
     .play-instantly-image-2 {
 
         position: relative;
-        left: 5px;
+        left: 15px;
         bottom: 150px;
 
     }
@@ -694,18 +718,18 @@ footer {
 
     .play-anywhere-header {
         text-align: center;
-        padding-left: 140px;
+        padding-left: 180px;
         width: 500px;
     }
 
     .play-anywhere-image-1 {
         width: 120%;
-        margin-left: 140px;
+        margin-left: 180px;
     }
 
     .play-anywhere-image-2 {
         position: relative;
-        left: 20px;
+        left: 30px;
         bottom: 150px;
 
     }
@@ -716,9 +740,18 @@ footer {
 
         width: 900px;
     }
-
+    .career-title,
+    .career-details,
+    .career-description
+    {
+        margin-left: 100px;
+    }
+    .btn-career{
+        position: relative;
+        left: 25px;
+    }
     .career-info {
-        margin-left: 130px;
+        margin-left: 10px;
     }
 
     /* more section style------------ */
